@@ -445,7 +445,7 @@ client.on('message', message => {
   switch(message.content){
     case '$about':
       exampleEmbed
-      .setTitle('💁🏻‍♂️ **About XdHacks Mini Vancouver** 💁🏻')
+      .setTitle('💁🏻‍♂️**About XdHacks Mini Vancouver**💁🏻')
       .setURL('https://mini.xdhacks.com/vancouver/about_us') 
       .setDescription('XdHacks Mini is a global high-school Hackathon organization dedicated towards hosting high-school Hackathons to inspire more youth to be engaged with the field of STEAM')
       .attachFiles(['./images/logo.png'])
@@ -457,7 +457,7 @@ client.on('message', message => {
 
     case '$help':
       exampleEmbed
-    .setTitle("❓ **Server Commands** - ``$help``")
+    .setTitle("❓**Server Commands** - ``$help``")
     .setURL(null)
     .setDescription("Check out all commands of this bot")
     .setDescription(commands)
@@ -469,7 +469,7 @@ client.on('message', message => {
   
     case '$rules':
       exampleEmbed
-      .setTitle("✅ **Rules**")
+      .setTitle("✅**Rules**")
       .setURL('https://climate-code-2021.devpost.com/rules') 
       .setDescription("Rules and Policies for Climate Code")
       .setTimestamp()
@@ -482,7 +482,7 @@ client.on('message', message => {
 
     case '$social':
       exampleEmbed
-      .setTitle("🙋🏻‍♂️ **Our social media @s!**")
+      .setTitle("🙋🏻‍♂️**Our social media @s!**")
       .setURL(null)
       .setDescription(socialMedia)
       .setTimestamp()
@@ -499,7 +499,7 @@ client.on('message', message => {
 
     case '$website':
       exampleEmbed
-      .setTitle("🖥 **Check our our website!**")
+      .setTitle("🖥**Check our our website!**")
       .setURL('https://mini.xdhacks.com/vancouver/') 
       .setDescription("XdHacks Mini Vancouver's Official Website")
       .setTimestamp()
@@ -512,7 +512,7 @@ client.on('message', message => {
     case '$faq': //change to text
     
       exampleEmbed
-      .setTitle("❔ **Frequently Asked Questions**")
+      .setTitle("❔**Frequently Asked Questions**")
       .setURL(null)
       .setDescription(questions)
       .setTimestamp()
@@ -529,7 +529,7 @@ client.on('message', message => {
 
     case '$links':
       exampleEmbed
-      .setTitle("📩 **XdHacks Mini Vancouver's Resources Page**")
+      .setTitle("📩**XdHacks Mini Vancouver's Resources Page**")
       .setURL('https://beacons.page/xdhacksmini_van/') 
       .setDescription("Check out our beacons page for more info and resources!")
       .setTimestamp()
