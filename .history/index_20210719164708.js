@@ -92,7 +92,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ **Team Formation Activity!**')
       .setURL(null) 
-      .setDescription('Meet other teammates and participants in a super-friendly environment! \n \n **📆Date&Time: ** Friday, August 6th 2021 @ 7:30PM \n \n **📢Name of workshop: ** Team Formation Activity \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ')
+      .setDescription('Meet other teammates and participants in a super-friendly environment! \n \n **📆Date&Time: ** Friday, August 6th 2021 @ 7:30PM \n \n **📢Name of workshop: ** Team Formation Activity \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -105,7 +105,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ HTML/CSS Programming Basics')
       .setURL(null) 
-      .setDescription('A workshop that will introduce you to the basics of HTML and CSS. \n \n **📆Date&Time: ** Friday, August 6th 2021 @ 8:00PM \n \n **📢Name of workshop: ** HTML/CSS Basics \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ')
+      .setDescription('A workshop that will introduce you to the basics of HTML and CSS. \n \n **📆Date&Time: ** Friday, August 6th 2021 @ 8:00PM \n \n **📢Name of workshop: ** HTML/CSS Basics \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -118,7 +118,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Introduction to JavaScript - Building a game')
       .setURL(null) 
-      .setDescription('A workshop that will introduce you to the basics of Javascript. \n \n **📆Date&Time: ** Friday, August 6th 2021 @ 9:00PM \n \n **📢Name of workshop: ** Intro to Javascript \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ')
+      .setDescription('A workshop that will introduce you to the basics of Javascript. \n \n **📆Date&Time: ** Friday, August 6th 2021 @ 9:00PM \n \n **📢Name of workshop: ** Intro to Javascript \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -131,7 +131,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Discord Bot Programming Basics')
       .setURL(null) 
-      .setDescription('Build your own Discord Bot while learning the fundamentals of Discord.py! \n \n **📆Date&Time: ** Friday, August 6th 2021 @ 10:00PM \n \n **📢Name of workshop: ** Intro to Discord.py \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ')
+      .setDescription('Build your own Discord Bot while learning the fundamentals of Discord.py! \n \n **📆Date&Time: ** Friday, August 6th 2021 @ 10:00PM \n \n **📢Name of workshop: ** Intro to Discord.py \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -144,7 +144,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Minecraft Battles!')
       .setURL(null) 
-      .setDescription("Have fun while meeting new people! Play one of the world's most famous games while winning a variety of prizes! ! \n \n **📆Date&Time: ** Friday, August 6th 2021 @ 11:00PM \n \n **📢Name of workshop: ** Minecraft Battle \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' ")
+      .setDescription("Have fun while meeting new people! Play one of the world's most famous games while winning a variety of prizes! ! \n \n **📆Date&Time: ** Friday, August 6th 2021 @ 11:00PM \n \n **📢Name of workshop: ** Minecraft Battle \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (link: ----) ")
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -157,7 +157,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Midnight Games!')
       .setURL(null) 
-      .setDescription('A variety of games with lots of prizes! Will be hosted on Discord! \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 12:00AM \n \n **📢Name of workshop: ** Midnight Games \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Discord')
+      .setDescription('A variety of games with lots of prizes! Will be hosted on Discord! \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 12:00AM \n \n **📢Name of workshop: ** Midnight Games \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Discord (Channel: )')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -170,7 +170,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Bedtime Stories!')
       .setURL(null) 
-      .setDescription('Still awake? Have some fun with a variety of bedtime stories! \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 2:00PM \n \n **📢Name of workshop: ** Bedtime Stories \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
+      .setDescription('Still awake? Have some fun with a variety of bedtime stories! \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 2:00PM \n \n **📢Name of workshop: ** Bedtime Stories \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -187,7 +187,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Programming Languages and choosing one')
       .setURL(null) 
-      .setDescription('Learn the various programming languages, and which one you should learn. \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 9:00AM \n \n **📢Name of workshop: ** Intro to Programming \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
+      .setDescription('Learn the various programming languages, and which one you should learn. \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 9:00AM \n \n **📢Name of workshop: ** Intro to Programming \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -200,7 +200,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Build Responsive Web Apps with React')
       .setURL(null) 
-      .setDescription('Learn about one of the most popular front-end JavaScript libraries for building user interfaces. \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 10:00AM \n \n **📢Name of workshop: ** React Workshop \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
+      .setDescription('Learn about one of the most popular front-end JavaScript libraries for building user interfaces. \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 10:00AM \n \n **📢Name of workshop: ** React Workshop \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -214,7 +214,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ EchoAR Workshop: Build a Cloud-Connected AR/VR App in 15 Minutes or Less')
       .setURL(null) 
-      .setDescription('The workshop will show how to quickly create AR/VR apps with no technical skills or coding required and scale existing apps by connecting them to the cloud.  \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 11:00AM \n \n **📢Name of workshop: ** EchoAR Workshop \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
+      .setDescription('The workshop will show how to quickly create AR/VR apps with no technical skills or coding required and scale existing apps by connecting them to the cloud.  \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 11:00AM \n \n **📢Name of workshop: ** EchoAR Workshop \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -227,7 +227,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Protips for Joining the Video Game Industry')
       .setURL(null) 
-      .setDescription('How do you start a career in the games industry? How do you stand out when applying to your favorite gaming companies? How do you take your rad game ideas from concept to reality? Learn the answers to these questions and more! \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 1:00PM \n \n **📢Name of workshop: ** Tips for joining the Game Industry \n\n **🗣Speaker(s): ** Kevin Hodges, Senior Software Engineer at Riot Games \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
+      .setDescription('How do you start a career in the games industry? How do you stand out when applying to your favorite gaming companies? How do you take your rad game ideas from concept to reality? Learn the answers to these questions and more! \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 1:00PM \n \n **📢Name of workshop: ** Tips for joining the Game Industry \n\n **🗣Speaker(s): ** Kevin Hodges, Senior Software Engineer at Riot Games \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -240,7 +240,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Brief overview of websites and their vulnerabilities Part 1')
       .setURL(null) 
-      .setDescription('A look into how websites work, starting from the basics to the advanced topics. \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 2:00PM \n \n **📢Name of workshop: ** How Websites Work \n\n **🗣Speaker(s): ** Brian Han, John Kang \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
+      .setDescription('A look into how websites work, starting from the basics to the advanced topics. \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 2:00PM \n \n **📢Name of workshop: ** How Websites Work \n\n **🗣Speaker(s): ** Brian Han, John Kang \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -254,7 +254,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Tips and tricks for jump-starting your career')
       .setURL(null) 
-      .setDescription('A brief overview of how Alex made it to Microsoft, including his experiences, his passions, and his career story.  \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 3:00PM \n \n **📢Name of workshop: ** Tips and tricks for jump-starting your career \n\n **🗣Speaker(s): ** Alex Kwan, Engineering Manager \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
+      .setDescription('A brief overview of how Alex made it to Microsoft, including his experiences, his passions, and his career story.  \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 3:00PM \n \n **📢Name of workshop: ** Tips and tricks for jump-starting your career \n\n **🗣Speaker(s): ** Alex Kwan, Engineering Manager \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -269,7 +269,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Flow States Workshop')
       .setURL(null) 
-      .setDescription('Try out Centered’s newly released Flow Hall to concentrate on becoming more productive while working on your “hack”.  \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 4:00PM \n \n **📢Name of workshop: ** Flow States Workshop \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
+      .setDescription('Try out Centered’s newly released Flow Hall to concentrate on becoming more productive while working on your “hack”.  \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 4:00PM \n \n **📢Name of workshop: ** Flow States Workshop \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -282,7 +282,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Making Money with Affiliate Marketing')
       .setURL(null) 
-      .setDescription('What is affiliate marketing and how you can build sales funnels and develop an audience on social media to create passive income without paying money upfront. \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 5:00PM \n \n **📢Name of workshop: ** Affiliate Marketing Workshop \n\n **🗣Speaker(s): ** Alex Kwan, Engineering Manager \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
+      .setDescription('What is affiliate marketing and how you can build sales funnels and develop an audience on social media to create passive income without paying money upfront. \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 5:00PM \n \n **📢Name of workshop: ** Affiliate Marketing Workshop \n\n **🗣Speaker(s): ** Alex Kwan, Engineering Manager \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -295,7 +295,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Brief overview of websites and their vulnerabilities Part 2')
       .setURL(null) 
-      .setDescription('A look into how hacking works. Previous attendance at “How websites work” is recommended.  \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 7:00PM \n \n **📢Name of workshop: ** How hacking works Workshop \n\n **🗣Speaker(s): ** Brian Han, John Kang \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
+      .setDescription('A look into how hacking works. Previous attendance at “How websites work” is recommended.  \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 7:00PM \n \n **📢Name of workshop: ** How hacking works Workshop \n\n **🗣Speaker(s): ** Brian Han, John Kang \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -308,7 +308,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Special Speaker #3: Berkeley SWE Organization')
       .setURL(null) 
-      .setDescription('SWE  Berkeley presents a special workshop. \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 8:00PM \n \n **📢Name of workshop: ** Workshop from Berkeley SWE \n\n **🗣Speaker(s): ** Berkeley SWE \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
+      .setDescription('SWE  Berkeley presents a special workshop. \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 8:00PM \n \n **📢Name of workshop: ** Workshop from Berkeley SWE \n\n **🗣Speaker(s): ** Berkeley SWE \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -320,7 +320,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Live Pitching Schedule Released')
       .setURL(null) 
-      .setDescription('More info will be shared on event day...  \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 9:00PM \n \n **📢Name of workshop: ** Live Pitching Schedule will be released! \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
+      .setDescription('More info will be shared on event day...  \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 9:00PM \n \n **📢Name of workshop: ** Live Pitching Schedule will be released! \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -332,7 +332,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ How to pitch your hack: tips and tricks')
       .setURL(null) 
-      .setDescription('An overview of how to effectively pitch your hack to judges and utilize your presentation time.   \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 9:00PM \n \n **📢Name of workshop: ** Tips and tricks for jump-starting your career \n\n **🗣Speaker(s): ** Alex Kwan, Engineering Manager \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
+      .setDescription('An overview of how to effectively pitch your hack to judges and utilize your presentation time.   \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 9:00PM \n \n **📢Name of workshop: ** Tips and tricks for jump-starting your career \n\n **🗣Speaker(s): ** Alex Kwan, Engineering Manager \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -344,7 +344,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Midnight Games')
       .setURL(null) 
-      .setDescription('Play some Midnight Games and make some new friends! \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 12:00AM \n \n **📢Name of workshop: ** Midnight Games! \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82753187275?pwd=TVI4VVk0NnhMOFVHQXh5dlQxeXd5Zz09) \n Webinar ID:  827 5318 7275 \n Passcode: 2021 ' )
+      .setDescription('Play some Midnight Games and make some new friends! \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 12:00AM \n \n **📢Name of workshop: ** Midnight Games! \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -357,7 +357,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Submissions Close')
       .setURL(null) 
-      .setDescription('Submissions will be closing in 10 mins!  \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 8:50AM \n \n **📢Name of workshop: ** Submissions closing! \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver \n\n **🌠Location: ** Zoom: (Link: https://us02web.zoom.us/j/82753187275?pwd=TVI4VVk0NnhMOFVHQXh5dlQxeXd5Zz09) \n Webinar ID:  827 5318 7275 \n Passcode: 2021 ')
+      .setDescription('Submissions will be closing in 10 mins!  \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 8:50AM \n \n **📢Name of workshop: ** Submissions closing! \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver \n\n **🌠Location: ** - ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -370,7 +370,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Live Pitching Starting in 10 mins')
       .setURL(null) 
-      .setDescription('Live Pitching will proceed in the order described in the schedule provided. Instructions will be sent before the event begins.   \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 9:00AM ~ 11:00AM \n \n **📢Name of workshop: ** Live Pitch Starting \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82753187275?pwd=TVI4VVk0NnhMOFVHQXh5dlQxeXd5Zz09) \n Webinar ID:  827 5318 7275 \n Passcode: 2021 ' )
+      .setDescription('Live Pitching will proceed in the order described in the schedule provided. Instructions will be sent before the event begins.   \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 9:00AM ~ 11:00AM \n \n **📢Name of workshop: ** Live Pitch Starting \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -383,7 +383,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ University Programs with regard to STEM')
       .setURL(null) 
-      .setDescription('A look into University Programs involving STEM fields, and how to enter them.  \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 9:00AM \n \n **📢Name of workshop: ** University Programs related to STEM \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82753187275?pwd=TVI4VVk0NnhMOFVHQXh5dlQxeXd5Zz09) \n Webinar ID:  827 5318 7275 \n Passcode: 2021 ' )
+      .setDescription('A look into University Programs involving STEM fields, and how to enter them.  \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 9:00AM \n \n **📢Name of workshop: ** University Programs related to STEM \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -396,7 +396,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Resume Building and Cover Letters')
       .setURL(null) 
-      .setDescription('A review of what to put in your resume, with a focus on STEM. \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 10:00AM \n \n **📢Name of workshop: ** Building your resume/CV \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82753187275?pwd=TVI4VVk0NnhMOFVHQXh5dlQxeXd5Zz09) \n Webinar ID:  827 5318 7275 \n Passcode: 2021 ' )
+      .setDescription('A review of what to put in your resume, with a focus on STEM. \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 10:00AM \n \n **📢Name of workshop: ** Building your resume/CV \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -410,7 +410,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Workshop TBA')
       .setURL(null) 
-      .setDescription(' TBA \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 11:00AM \n \n **📢Name of workshop: ** TBA \n\n **🗣Speaker(s): ** TBA \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82753187275?pwd=TVI4VVk0NnhMOFVHQXh5dlQxeXd5Zz09) \n Webinar ID:  827 5318 7275 \n Passcode: 2021 ' )
+      .setDescription(' TBA \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 11:00AM \n \n **📢Name of workshop: ** TBA \n\n **🗣Speaker(s): ** TBA \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -423,7 +423,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Closing Ceremony starting in 10 mins!')
       .setURL(null) 
-      .setDescription(' Winners will be announced at the closing ceremony! Prizes will be awarded to all winners.  \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 11:45AM \n \n **📢Name of workshop: ** Closing Ceremony \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82753187275?pwd=TVI4VVk0NnhMOFVHQXh5dlQxeXd5Zz09) \n Webinar ID:  827 5318 7275 \n Passcode: 2021 ' )
+      .setDescription(' Winners will be announced at the closing ceremony! Prizes will be awarded to all winners.  \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 11:45AM \n \n **📢Name of workshop: ** Closing Ceremony \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (link: ----) ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -539,6 +539,19 @@ client.on('message', message => {
       message.channel.send(exampleEmbed)
       break;
     
+     
+   case '$test':
+    exampleEmbed
+    .setTitle('💁🏻‍♂️ Join us for our Official Opening Ceremony!')
+    .setURL(null) 
+    .setDescription('Welcome to Climate Code 2021! Important information will be shared, rules will be reviewed, submissions, prizes, sponsors, packages, and a special guest! \n \n **📆Date&Time: ** Friday, August 6th 2021 @ 7:00PM \n \n **📢Name of workshop: ** Opening Ceremony \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ')
+    .attachFiles(['./images/logo.png'])
+    .setThumbnail('attachment://logo.png')
+    .setTimestamp()
+    .setFooter('XdHacks Mini', 'attachment://logo.png');
+    client.channels.cache.get('857452101747998733').send('<@&865043435273977876>')
+    client.channels.cache.get('857452101747998733').send(exampleEmbed)
+     break;
 
   }
  
