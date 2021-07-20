@@ -70,7 +70,7 @@ client.once('ready', () => {
 
 function updateTime(){
   setInterval(() => {
-    if(moment().format('MMMM Do YYYY, h:mm:ss a') === "July 20th 2021, 11:50:00 am"){
+    if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 6th 2021, 6:50:00 pm"){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Join us for our Official Opening Ceremony!')
       .setURL(null) 
