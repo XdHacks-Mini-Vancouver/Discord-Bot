@@ -544,7 +544,8 @@ client.on('message', message => {
   }
  
 })
-
+// 859593630217011211
+// 857452101747998730
 
 
 client.login(process.env.token)

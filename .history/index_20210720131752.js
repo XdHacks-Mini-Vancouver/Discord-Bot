@@ -1,6 +1,5 @@
 const Discord = require('discord.js')
 const moment = require('moment')
-require('dotenv').config()
 
 const client = new Discord.Client()
 
@@ -544,7 +543,11 @@ client.on('message', message => {
   }
  
 })
+// 859593630217011211
+// 857452101747998730
 
 
+console.log(process.env)
 
-client.login(process.env.token)
+
+client.login('ODU5MTUwMTkyODY3ODAzMjA2.YNof-A.8ztYtjMvshs3RubMyekA3Dbu4V8')
