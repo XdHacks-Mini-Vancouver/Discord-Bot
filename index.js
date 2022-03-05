@@ -43,7 +43,7 @@ const questions = [
   "✅ **A:** *A Hackathon is a combination of the words 'hack' and 'marathon'. At XdHacks Mini, we believe  the word 'hack' means to create. It’s an event where people come together and use technology to transform ideas into reality. Additionally, students can create projects, attend workshops, meet new people, improve their programming, and have lots of fun!*",
   "",
   "❓ **Q: How does a virtual hackathon work?**",
-  "✅ **A:** *XdHacks-Climate Code takes place exclusively online. Registration will be held on HackHub exclusively and discord will be the communication platform during the Hackathon where webinars and Q &A sessions will be hosted. Technical instructions will be sent to you via email before the Hackathon begins.*",
+  "✅ **A:** *XdHacks-Hack the Pulse takes place exclusively online. Registration will be held on HackHub exclusively and discord will be the communication platform during the Hackathon where webinars and Q &A sessions will be hosted. Technical instructions will be sent to you via email before the Hackathon begins.*",
   "",
   "❓ **Q: What activities are planned?**",
   "✅ **A:** *There will be webinars, online side games and plenty of other fun activities to keep you busy. We will have some online team building sessions, so feel free to register alone!*",
@@ -75,7 +75,7 @@ function updateTime(){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Join us for our Official Opening Ceremony!')
       .setURL(null) 
-      .setDescription('Welcome to Climate Code 2021! Important information will be shared, rules will be reviewed, submissions, prizes, sponsors, packages, and a special guest! \n \n **📆Date&Time: ** Friday, August 6th 2021 @ 7:00PM \n \n **📢Name of workshop: ** Opening Ceremony \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ')
+      .setDescription('Welcome to Hack the Pulse 2022! Important information will be shared, rules will be reviewed, submissions, prizes, sponsors, packages, and a special guest! \n \n **📆Date&Time: ** Friday, August 6th 2021 @ 7:00PM \n \n **📢Name of workshop: ** Opening Ceremony \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -471,8 +471,8 @@ client.on('message', message => {
     case '$rules':
       exampleEmbed
       .setTitle("✅ **Rules**")
-      .setURL('https://climate-code-2021.devpost.com/rules') 
-      .setDescription("Rules and Policies for Climate Code")
+      .setURL('https://hack-the-pulse.devpost.com/rules') 
+      .setDescription("Rules and Policies for Hack the Pulse")
       .setTimestamp()
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
