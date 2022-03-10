@@ -71,11 +71,11 @@ client.once('ready', () => {
 
 function updateTime(){
   setInterval(() => {
-    if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 6th 2021, 6:50:00 pm"){
+    if(moment().format('MMMM Do YYYY, h:mm:ss a') === "March 11th 2022, 6:50:00 pm"){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Join us for our Official Opening Ceremony!')
       .setURL(null) 
-      .setDescription('Welcome to Hack the Pulse 2022! Important information will be shared, rules will be reviewed, submissions, prizes, sponsors, packages, and a special guest! \n \n **📆Date&Time: ** Friday, August 6th 2021 @ 7:00PM \n \n **📢Name of workshop: ** Opening Ceremony \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ')
+      .setDescription('Welcome to Hack the Pulse 2022! Important information will be shared, rules will be reviewed, submissions, prizes, sponsors, packages, and a special guest! \n \n **📆Date&Time: ** Friday, March 11th 2022 @ 7:00PM \n \n **📢Name of workshop: ** Opening Ceremony \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86437459913) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -84,16 +84,29 @@ function updateTime(){
       client.channels.cache.get('857452101747998733').send(exampleEmbed)
     }
 
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 6th 2021, 7:20:00 pm"){
+    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "March 11th 2022, 9:00:00 pm"){
       client.channels.cache.get('857452101747998733').send('<@&865043435273977876>')
       client.channels.cache.get('857452101747998733').send('**Submissions are now OPEN! Start hacking!**')
     }
 
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 6th 2021, 7:20:00 pm"){
+    /*else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 6th 2021, 7:20:00 pm"){
       exampleEmbed
       .setTitle('💁🏻‍♂️ **What Could Go Wrong?**')
       .setURL(null) 
-      .setDescription('Meet other teammates and participants in a super-friendly environment! \n \n **📆Date&Time: ** Friday, August 6th 2021 @ 7:30PM \n \n **📢Name of workshop: ** Team Formation Activity \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ')
+      .setDescription('Meet other teammates and participants in a super-friendly environment! \n \n **📆Date&Time: ** Friday, March 11th 2022 @ 7:30PM \n \n **📢Name of workshop: ** Team Formation Activity \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ')
+      .attachFiles(['./images/logo.png'])
+      .setThumbnail('attachment://logo.png')
+      .setTimestamp()
+      .setFooter('XdHacks Mini', 'attachment://logo.png');
+      client.channels.cache.get('857452101747998733').send('<@&865043435273977876>')
+      client.channels.cache.get('857452101747998733').send(exampleEmbed)
+    } */
+
+    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "March 11th 2022, 5:50:00 pm"){
+      exampleEmbed
+      .setTitle('Intro to Design Thinking')
+      .setURL(null) 
+      .setDescription('Taking five steps–Empathize, Define, Ideate, Prototype, and Test–design thinking is used to create many of the products, experiences, and software that you use on a daily basis. This workshop will give an overview of the process and methods of design thinking, and then prompt participants to go through an abbreviated example themselves. \n \n **📆Date&Time: ** Friday, March 11th 2022 @ 6:00PM \n \n **📢Name of workshop: ** Intro to Design Thinking \n\n **🗣Speaker(s): ** Alvin Leung - Square \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82830735690) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -102,11 +115,11 @@ function updateTime(){
       client.channels.cache.get('857452101747998733').send(exampleEmbed)
     }
 
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 6th 2021, 7:50:00 pm"){
+    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "March 11th 2022, 7:50:00 pm"){
       exampleEmbed
-      .setTitle('💁🏻‍♂️ HTML/CSS Programming Basics')
+      .setTitle('Lets Git Going - Hands on!')
       .setURL(null) 
-      .setDescription('A workshop that will introduce you to the basics of HTML and CSS. \n \n **📆Date&Time: ** Friday, August 6th 2021 @ 8:00PM \n \n **📢Name of workshop: ** HTML/CSS Basics \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ')
+      .setDescription('Hands-on workshop introducing using Git and GitLab. We will talk a little about what Git is, and why its the most popular Version Control system for teams! We will use VS Code for us all to work with, but the skills you learn will serve you well in any environment. Will also introduce the projects that Dr. Brians students are working on for health care referrals in Uganda and Sierra Leone. \n \n **📆Date&Time: ** Friday, March 11th 2022 @ 8:00PM \n \n **📢Name of workshop: ** Lets Git Going - Hands on! \n\n **🗣Speaker(s): ** Brian Fraser - SFU \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82830735690) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -115,11 +128,11 @@ function updateTime(){
       client.channels.cache.get('857452101747998733').send(exampleEmbed)
     }
 
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 6th 2021, 8:50:00 pm"){
+    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "March 11th 2022, 8:50:00 pm"){
       exampleEmbed
-      .setTitle('💁🏻‍♂️ Introduction to JavaScript - Building a game')
+      .setTitle(' Brainstorming')
       .setURL(null) 
-      .setDescription('A workshop that will introduce you to the basics of Javascript. \n \n **📆Date&Time: ** Friday, August 6th 2021 @ 9:00PM \n \n **📢Name of workshop: ** Intro to Javascript \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ')
+      .setDescription('Brainstorming activity to spark ideas for your project! \n \n **📆Date&Time: ** Friday, March 11th 2022 @ 9:00PM \n \n **📢Name of workshop: ** Idea Brainstorming \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82830735690) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -130,9 +143,9 @@ function updateTime(){
 
     else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 6th 2021, 9:50:00 pm"){
       exampleEmbed
-      .setTitle('💁🏻‍♂️ Discord Bot Programming Basics')
+      .setTitle('Live Q&A from the Organizing Team + Mentors')
       .setURL(null) 
-      .setDescription('Build your own Discord Bot while learning the fundamentals of Discord.py! \n \n **📆Date&Time: ** Friday, August 6th 2021 @ 10:00PM \n \n **📢Name of workshop: ** Intro to Discord.py \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ')
+      .setDescription("Ask any questions you may have regarding the event, technical questions, or anything else! \n \n **📆Date&Time: ** Friday, March 11th 2022 @ 10:00PM \n \n **📢Name of workshop: ** Live Q&A from the Organizing Team + Mentors \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82830735690) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' ")
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -141,11 +154,11 @@ function updateTime(){
       client.channels.cache.get('857452101747998733').send(exampleEmbed)
     }
 
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 6th 2021, 10:50:00 pm"){
+    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "March 11th 2022, 10:50:00 pm"){
       exampleEmbed
-      .setTitle('💁🏻‍♂️ Minecraft Battles!')
+      .setTitle('echoAR Workshop: Build a Cloud-Connected AR/VR App in 15 Minutes or Less')
       .setURL(null) 
-      .setDescription("Have fun while meeting new people! Play one of the world's most famous games while winning a variety of prizes! ! \n \n **📆Date&Time: ** Friday, August 6th 2021 @ 11:00PM \n \n **📢Name of workshop: ** Minecraft Battle \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' ")
+      .setDescription('The workshop will show how to quickly create AR/VR apps with no technical skills or coding required and scale existing apps by connecting them to the cloud. \n \n **📆Date&Time: ** Saturday, March 11th 2022 @ 11:00AM \n \n **📢Name of workshop: ** echoAR Workshop: Build a Cloud-Connected AR/VR App in 15 Minutes or Less \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82830735690) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -154,11 +167,11 @@ function updateTime(){
       client.channels.cache.get('857452101747998733').send(exampleEmbed)
     }
 
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 6th 2021, 11:50:00 pm"){
+    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "March 11th 2022, 11:50:00 pm"){
       exampleEmbed
-      .setTitle('💁🏻‍♂️ Midnight Games!')
+      .setTitle('Midnight Games!')
       .setURL(null) 
-      .setDescription('A variety of games with lots of prizes! Will be hosted on Discord! \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 12:00AM \n \n **📢Name of workshop: ** Midnight Games \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Discord')
+      .setDescription('A variety of games with lots of chances to win points that will count towards your final score for prizes! \n \n **📆Date&Time: ** Saturday, March 12th 2022 @ 12:00AM \n \n **📢Name of workshop: ** Midnight Games! \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Discord')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -167,11 +180,15 @@ function updateTime(){
       client.channels.cache.get('857452101747998733').send(exampleEmbed)
     }
 
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 7th 2021, 1:50:00 am"){
+
+    //Do SATURDAY March 12
+
+
+    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "March 12th 2022, 9:50:00 am"){
       exampleEmbed
-      .setTitle('💁🏻‍♂️ Bedtime Stories!')
+      .setTitle('Expansion 101')
       .setURL(null) 
-      .setDescription('Still awake? Have some fun with a variety of bedtime stories! \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 2:00PM \n \n **📢Name of workshop: ** Bedtime Stories \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
+      .setDescription('Turn your idea into a reality with this step-by-step and story-like workshop from Galicia Gordon, the Founder of Leading Learners. \n \n **📆Date&Time: ** Saturday, March 12th 2022 @ 10:00AM \n \n **📢Name of workshop: ** Expansion 101 \n\n **🗣Speaker(s): ** Galacia Gordon - Leading Learners \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82830735690) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -180,15 +197,11 @@ function updateTime(){
       client.channels.cache.get('857452101747998733').send(exampleEmbed)
     }
 
-
-    //Do SATURDAY August 7th
-
-
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 7th 2021, 8:50:00 am"){
+    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "March 12th 2022, 12:50:00 pm"){
       exampleEmbed
-      .setTitle('💁🏻‍♂️ Programming Languages and choosing one')
+      .setTitle('Introduction to Java')
       .setURL(null) 
-      .setDescription('Learn the various programming languages, and which one you should learn. \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 9:00AM \n \n **📢Name of workshop: ** Intro to Programming \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
+      .setDescription('This workshop is geared towards complete beginners and experienced coders who want to learn the basics of Java. Topics covered in the workshop include: types of variables, declaring variables, conditional statements, using loops, manipulating strings, and a brief introduction to object-oriented programming. This workshop is especially handy for those who are interested in AP Computer Science. \n \n **📆Date&Time: ** Saturday, March 12th 2022 @ 1:00PM \n \n **📢Name of workshop: ** Introduction to Java \n\n **🗣Speaker(s): ** Phuong Ngo & Jeff Lu \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82830735690) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -197,11 +210,12 @@ function updateTime(){
       client.channels.cache.get('857452101747998733').send(exampleEmbed)
     }
 
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 7th 2021, 9:50:00 am"){
+
+    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "March 12th 2022, 3:50:00 pm"){
       exampleEmbed
-      .setTitle('💁🏻‍♂️ Build Responsive Web Apps with React')
+      .setTitle('Jackbox Games')
       .setURL(null) 
-      .setDescription('Learn about one of the most popular front-end JavaScript libraries for building user interfaces. \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 10:00AM \n \n **📢Name of workshop: ** React Workshop \n\n **🗣Speaker(s): ** Leo Tian, Web developer student \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
+      .setDescription('Jackbox Party Pack 3 We will be playing some of our favourite games on Jackbox! Winners will receive prizes! \n \n **📆Date&Time: ** Saturday, March 12th 2022 @ 4:00PM \n \n **📢Name of workshop: ** Jackbox Games \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Discord' )
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -210,12 +224,11 @@ function updateTime(){
       client.channels.cache.get('857452101747998733').send(exampleEmbed)
     }
 
-
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 7th 2021, 10:50:00 am"){
+    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "March 12th 2022, 5:50:00 pm"){
       exampleEmbed
-      .setTitle('💁🏻‍♂️ EchoAR Workshop: Build a Cloud-Connected AR/VR App in 15 Minutes or Less')
+      .setTitle('Flow States workshop (80% will be a hacking period)')
       .setURL(null) 
-      .setDescription('The workshop will show how to quickly create AR/VR apps with no technical skills or coding required and scale existing apps by connecting them to the cloud.  \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 11:00AM \n \n **📢Name of workshop: ** EchoAR Workshop \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
+      .setDescription('Try out Centereds newly released Flow Hall to concentrate on becoming more productive while working on your “hack”. \n \n **📆Date&Time: ** Saturday, March 12th 2022 @ 6:00PM \n \n **📢Name of workshop: ** Flow States workshop (80% will be a hacking period) \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82830735690) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -224,24 +237,11 @@ function updateTime(){
       client.channels.cache.get('857452101747998733').send(exampleEmbed)
     }
 
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 7th 2021, 12:50:00 pm"){
+    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "March 12th 2022, 7:50:00 pm"){
       exampleEmbed
-      .setTitle('💁🏻‍♂️ Protips for Joining the Video Game Industry')
+      .setTitle('Activities')
       .setURL(null) 
-      .setDescription('How do you start a career in the games industry? How do you stand out when applying to your favorite gaming companies? How do you take your rad game ideas from concept to reality? Learn the answers to these questions and more! \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 1:00PM \n \n **📢Name of workshop: ** Tips for joining the Game Industry \n\n **🗣Speaker(s): ** Kevin Hodges, Senior Software Engineer at Riot Games \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
-      .attachFiles(['./images/logo.png'])
-      .setThumbnail('attachment://logo.png')
-      .setTimestamp()
-      .setFooter('XdHacks Mini', 'attachment://logo.png');
-      client.channels.cache.get('857452101747998733').send('<@&865043435273977876>')
-      client.channels.cache.get('857452101747998733').send(exampleEmbed)
-    }
-
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 7th 2021, 1:50:00 pm"){
-      exampleEmbed
-      .setTitle('💁🏻‍♂️ Brief overview of websites and their vulnerabilities Part 1')
-      .setURL(null) 
-      .setDescription('A look into how websites work, starting from the basics to the advanced topics. \n \n **📆Date&Time: ** Saturday, August 7th 2021 @ 2:00PM \n \n **📢Name of workshop: ** How Websites Work \n\n **🗣Speaker(s): ** Brian Han, John Kang \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86471487101?pwd=U3YrNzQxL0xMMjNKOVA3OTRDL2dJQT09) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
+      .setDescription('Wikipedia Search, Code names, Spyfall \n \n **📆Date&Time: ** Saturday, March 12th 2022 @ 8:00PM \n \n **📢Name of workshop: ** Activities \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82830735690) \n Webinar ID: 864 7148 7101\n Passcode: 2021 ' )
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -251,7 +251,7 @@ function updateTime(){
     }
 
 
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 7th 2021, 2:50:00 pm"){
+    /*else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 7th 2021, 7:50:00 pm"){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Tips and tricks for jump-starting your career')
       .setURL(null) 
@@ -340,12 +340,12 @@ function updateTime(){
       .setFooter('XdHacks Mini', 'attachment://logo.png');
       client.channels.cache.get('857452101747998733').send('<@&865043435273977876>')
       client.channels.cache.get('857452101747998733').send(exampleEmbed)
-    }
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 7th 2021, 11:50:00 pm"){
+    } */
+    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "March 12th 2022, 11:50:00 pm"){
       exampleEmbed
-      .setTitle('💁🏻‍♂️ Midnight Games')
+      .setTitle('Movie Night!')
       .setURL(null) 
-      .setDescription('Play some Midnight Games and make some new friends! \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 12:00AM \n \n **📢Name of workshop: ** Midnight Games! \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82753187275?pwd=TVI4VVk0NnhMOFVHQXh5dlQxeXd5Zz09) \n Webinar ID:  827 5318 7275 \n Passcode: 2021 ' )
+      .setDescription('Home Alone 2, come join us and watch a classic! \n \n **📆Date&Time: ** Sunday, March 13th 2022 @ 12:00AM \n \n **📢Name of workshop: ** Movie Night! \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Discord ' )
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -354,11 +354,13 @@ function updateTime(){
       client.channels.cache.get('857452101747998733').send(exampleEmbed)
     }
 
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 8th 2021, 8:50:00 am"){
+    // Do Sunday March 13
+
+    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "March 13th 2022, 8:50:00 am"){
       exampleEmbed
-      .setTitle('💁🏻‍♂️ Submissions Close')
+      .setTitle('Submissions Close')
       .setURL(null) 
-      .setDescription('Submissions will be closing in 10 mins!  \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 8:50AM \n \n **📢Name of workshop: ** Submissions closing! \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver \n\n **🌠Location: ** Zoom: (Link: https://us02web.zoom.us/j/82753187275?pwd=TVI4VVk0NnhMOFVHQXh5dlQxeXd5Zz09) \n Webinar ID:  827 5318 7275 \n Passcode: 2021 ')
+      .setDescription('Projects submissions close in 10 minutes!  \n \n **📆Date&Time: ** Sunday, March 13th 2022 @ 9:00AM \n \n **📢Name of workshop: ** Submissions closing! \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom: (Link: https://us02web.zoom.us/j/82830735690) \n Webinar ID:  827 5318 7275 \n Passcode: 2021 ')
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -367,7 +369,7 @@ function updateTime(){
       client.channels.cache.get('857452101747998733').send(exampleEmbed)
     }
 
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 8th 2021, 8:50:00 am"){
+    /*else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 8th 2021, 8:50:00 am"){
       exampleEmbed
       .setTitle('💁🏻‍♂️ Live Pitching Starting in 10 mins')
       .setURL(null) 
@@ -378,13 +380,13 @@ function updateTime(){
       .setFooter('XdHacks Mini', 'attachment://logo.png');
       client.channels.cache.get('857452101747998733').send('<@&865043435273977876>')
       client.channels.cache.get('857452101747998733').send(exampleEmbed)
-    }
+    } */
 
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 8th 2021, 8:50:00 am"){
+    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "March 13th 2022, 8:50:00 am"){
       exampleEmbed
-      .setTitle('💁🏻‍♂️ University Programs with regard to STEM')
+      .setTitle('Activities with prizes: $20, $15, $5 prizes')
       .setURL(null) 
-      .setDescription('A look into University Programs involving STEM fields, and how to enter them.  \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 9:00AM \n \n **📢Name of workshop: ** University Programs related to STEM \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82753187275?pwd=TVI4VVk0NnhMOFVHQXh5dlQxeXd5Zz09) \n Webinar ID:  827 5318 7275 \n Passcode: 2021 ' )
+      .setDescription('Wikipedia Search, Crossword puzzle, Online Scavenger Hunt.  \n \n **📆Date&Time: ** Sunday, March 13th 2022 @ 9:00AM \n \n **📢Name of workshop: ** Activities with prizes: $20, $15, $5 prizes \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82830735690) \n Webinar ID:  827 5318 7275 \n Passcode: 2021 ' )
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -393,11 +395,11 @@ function updateTime(){
       client.channels.cache.get('857452101747998733').send(exampleEmbed)
     }
 
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 8th 2021, 9:50:00 am"){
+    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "March 13th 2022, 10:20:00 am"){
       exampleEmbed
-      .setTitle('💁🏻‍♂️ Resume Building and Cover Letters')
+      .setTitle('Innovations in Medical Oxygen')
       .setURL(null) 
-      .setDescription('A review of what to put in your resume, with a focus on STEM. \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 10:00AM \n \n **📢Name of workshop: ** Building your resume/CV \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82753187275?pwd=TVI4VVk0NnhMOFVHQXh5dlQxeXd5Zz09) \n Webinar ID:  827 5318 7275 \n Passcode: 2021 ' )
+      .setDescription('A review of what to put in your resume, with a focus on STEM. \n \n **📆Date&Time: ** Sunday, March 13th 2022 @ 10:30AM \n \n **📢Name of workshop: ** Innovations in Medical Oxygen \n\n **🗣Speaker(s): ** Sheillah Bagayana - FreO2 Foundation \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82830735690) \n Webinar ID:  827 5318 7275 \n Passcode: 2021 ' )
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -407,11 +409,11 @@ function updateTime(){
     }
 
 
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 8th 2021, 10:50:00 am"){
+    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "March 13th 2022, 11:20:00 am"){
       exampleEmbed
-      .setTitle('💁🏻‍♂️ How To Get a Job With No Experience')
+      .setTitle('Introduction to Azure')
       .setURL(null) 
-      .setDescription("What if I tell you that you already have everything to find a job in IT? Yes, it's possible to achieve without prior work experience. I did it and you can do it too. In this workshop I'll share with you some of the unconventional ways of learning that I've used, tips on getting your first job, and my personal story of learning computer science while working full-time as a bartender. \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 11:00AM \n \n **📢Name of workshop: ** How To Get a Job With No Experience \n\n **🗣Speaker(s): ** Roman Frolov, Senior Software Engineer, Codesphere \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82753187275?pwd=TVI4VVk0NnhMOFVHQXh5dlQxeXd5Zz09) \n Webinar ID:  827 5318 7275 \n Passcode: 2021 ")
+      .setDescription("This workshop will introduce you to cloud computing and Azure. \n \n **📆Date&Time: ** Sunday, March 13th 2022 @ 11:30AM \n \n **📢Name of workshop: ** Introduction to Azure \n\n **🗣Speaker(s): ** Haimantika Mitra - Microsoft \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82830735690) \n Webinar ID:  827 5318 7275 \n Passcode: 2021 ")
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
@@ -420,11 +422,11 @@ function updateTime(){
       client.channels.cache.get('857452101747998733').send(exampleEmbed)
     }
 
-    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "August 8th 2021, 11:35:00 am"){
+    else if(moment().format('MMMM Do YYYY, h:mm:ss a') === "March 13th 2022, 12:20:00 pm"){
       exampleEmbed
-      .setTitle('💁🏻‍♂️ Closing Ceremony starting in 10 mins!')
+      .setTitle(' Closing Ceremony starting in 10 mins!')
       .setURL(null) 
-      .setDescription(' Winners will be announced at the closing ceremony! Prizes will be awarded to all winners.  \n \n **📆Date&Time: ** Sunday, August 8th 2021 @ 11:45AM \n \n **📢Name of workshop: ** Closing Ceremony \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/82753187275?pwd=TVI4VVk0NnhMOFVHQXh5dlQxeXd5Zz09) \n Webinar ID:  827 5318 7275 \n Passcode: 2021 ' )
+      .setDescription(' Winners will be announced at the closing ceremony! Prizes will be awarded to all winners.  \n \n **📆Date&Time: ** Sunday, March 13th 2022 @ 12:30PM \n \n **📢Name of workshop: ** Closing Ceremony \n\n **🗣Speaker(s): ** XdHacks Mini Vancouver Team \n\n **🌠Location: ** Zoom (Link: https://us02web.zoom.us/j/86437459913) \n Webinar ID:  827 5318 7275 \n Passcode: 2021 ' )
       .attachFiles(['./images/logo.png'])
       .setThumbnail('attachment://logo.png')
       .setTimestamp()
